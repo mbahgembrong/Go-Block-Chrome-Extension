@@ -1,0 +1,30 @@
+{
+    "name": "Go-Block Virus",
+    "author": "Binusian",
+    "version": "1.0",
+    "description": "Go-Block Virus",
+    "manifest_version": 3,
+    "icons": {
+        "16": "img/ico-16.png",
+        "32": "img/ico-32.png",
+        "192": "img/ico-192.png"
+    },
+    "browser_action": {
+        "browser_style": true,
+        "default_icon": {
+            "16": "img/ico-16.png",
+            "32": "img/ico-32.png"
+        },
+        "default_title": "URL Scanner"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "contextMenus", "webRequest"
+    ],
+    "host_permissions": ["https://*/*", "http://*/*"],
+    "background": {
+
+    }
+
+}
